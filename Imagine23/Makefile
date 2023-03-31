@@ -8,7 +8,7 @@ BIBTEX=bibtex
 default=Imagine23.pdf
 
 #redraft.dvi:redraft.tex my.bib Makefile
-Imagine23.pdf:Nordita23.tex refs.bib Makefile 
+Imagine23.pdf:Imagine23.tex refs.bib Makefile 
 	$(LATEX) Imagine23 
 	$(BIBTEX) Imagine23
 	$(LATEX) Imagine23
